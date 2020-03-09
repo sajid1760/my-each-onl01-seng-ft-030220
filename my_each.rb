@@ -8,6 +8,7 @@ def my_each(array)
     i = i + 1
   end
 end
+end
 
 #my_each(collection) do |i|
  # puts i
