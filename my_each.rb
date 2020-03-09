@@ -1,6 +1,7 @@
 collection = [1,2,3,4]
 
 def my_each(array)
+ if block_given? then
   i = 0
   while i < array.length
     yield array[i]
@@ -8,6 +9,6 @@ def my_each(array)
   end
 end
 
-my_each(collection) do |i|
-  puts i
-end
+#my_each(collection) do |i|
+ # puts i
+#end
